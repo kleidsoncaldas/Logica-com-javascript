@@ -1,6 +1,6 @@
 //Calculadora de Rankeadas
 
-function calcularSaldoENivel(vitorias, derrotas) {
+function SaldoENivel(vitorias, derrotas) {
     let saldoVitorias = vitorias - derrotas;
     let nivel;
 
@@ -29,7 +29,7 @@ function calcularSaldoENivel(vitorias, derrotas) {
 let vitorias = 42;
 let derrotas = 17;
 
-let resultado = calcularSaldoENivel(vitorias, derrotas);
+let resultado = SaldoENivel(vitorias, derrotas);
 
 console.log("O Herói tem um saldo de: " + resultado.saldoVitorias + " e está no nível de: " + resultado.nivel);
  
