@@ -15,8 +15,8 @@ class Heroi {
             case "guerreiro":
                 ataque = "usou espada";
                 break;
-            case "monge":
-                ataque = "usou artes marciais";
+            case "arqueiro":
+                ataque = "usou flechas";
                 break;
             case "ninja":
                 ataque = "usou shuriken";
@@ -33,12 +33,12 @@ class Heroi {
 // Exemplo de uso
 const heroiMago = new Heroi("Gandalf", 1000, "mago");
 const heroiGuerreiro = new Heroi("Conan", 35, "guerreiro");
-const heroiMonge = new Heroi("Bruce Lee", 32, "monge");
+const heroiArqueiro = new Heroi("legolas", 32, "arqueiro");
 const heroiNinja = new Heroi("Hanzo", 28, "ninja");
 
 heroiMago.atacar();
 heroiGuerreiro.atacar();
-heroiMonge.atacar();
+heroiArqueiro.atacar();
 heroiNinja.atacar();
 
  
